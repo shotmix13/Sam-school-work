@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aguiland Travel Service</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media-query.css">
 </head>
 
 <body>
@@ -21,9 +22,9 @@
                     <div class="navlink-wrapper">
                         <a href="index.html" class="navlink">Home</a>
                         <a href="#about" class="navlink">About</a>
-                        <a href="#tours" class="navlink">Tours</a>
-                        <a href="#Feedbacks" class="navlink">Feedbacks</a>
-                        <a href="#contact" class="navlink">ContactUs</a>
+                        <a href="#tour" class="navlink">Tours</a>
+                        <a href="#reviews" class="navlink">Reviews</a>
+                        <a href="#cta-section" class="navlink">Contact</a>
                         <button class="button" id="form-open">Login</button>
                     </div>
                 </div>
@@ -33,7 +34,7 @@
         </nav>
           <!-- HERO SECTION -->
         <main>
-            <section class="hero-section">
+            <section class="hero-section" id="hero-section">
                <div class="backdrop">
                 <div class="container-lg">
                     <div class="hero-wrapper">
@@ -50,19 +51,16 @@
                 <div class="container-lg">
                     <div class="about-wrapper">
                         <h2>About Aguiland Travel Services</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius delectus culpa dolor. Atque
-                            adipisci eius ut sequi a alias facere! Reiciendis facere quo quos sed id, illo rerum quis
-                            recusandae repellat provident! Eos debitis placeat deserunt cupiditate. Iusto nobis officia
-                            facere. Natus illo tenetur officiis. Sit enim ut quibusdam accusantium.</p>
-                            <div class="button">Read More.</div>
+                        <p>Aguiland Travel Services — your premier choice for private van travel across the Philippines. We specialize in comfortable, hassle-free tours to the country's most popular destinations, including Boracay, Cordillera, Pinatubo, and more. Our private vans accommodate groups, giving you the flexibility to explore at your own pace. With all-inclusive packages, professional drivers, and a commitment to customer satisfaction, we're here to make your Philippine adventure truly unforgettable.</p>
+                            <a href="#hero-section" class="btn">About Us</a>
                     </div>
                 </div>
             </section>
              <!-- TOUR SECTION -->
             <section id="tours">
-        <div class="heading-part">
+        <div class="heading-part" id="tour">
         <h2 class="heading-secondary">
-          Most popular tours
+          Most Popular Tours
         </h2>
       </div>
          <div class="row">
@@ -156,58 +154,181 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="row">
+      <div class="col-1-of-3">
+        <div class="card">
+           <div class="card-side card-side-front">
+             <div class="card-picture card-picture-4">
+               &nbsp;
+             </div>
+             <h4 class="card-heading">
+               <span class="card-heading-color card-heading-color-4">Coron</span>                
+             </h4>
+             <div class="card-details">
+               <ul>
+                 <li>5 day tour</li>
+                 <li>Up to 6 people</li>
+                 <li>INCLUSIONS:</li>
+                 <li>Beach resort stay</li>
+                 <li>Island hopping included</li>
+               </ul>
+             </div>           
+          </div>
+          <div class="card-side card-side-back card-side-back-4">
+             <div class="card-cta">
+               <div class="card-price-box">
+                 <p class="card-price-only">Only</p>
+                 <p class="card-price-value">P42,000</p>
+               </div>
+               <a href="#" class="btn btn-white">Book Now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1-of-3">
+        <div class="card">
+           <div class="card-side card-side-front">
+             <div class="card-picture card-picture-5">
+               &nbsp;
+             </div>
+             <h4 class="card-heading">
+               <span class="card-heading-color card-heading-color-5">Cebu</span>                
+             </h4>
+             <div class="card-details">
+               <ul>
+                 <li>4 day tour</li>
+                 <li>Up to 8 people</li>
+                 <li>INCLUSIONS:</li>
+                 <li>Hotel accommodation</li>
+                 <li>Whale shark experience</li>
+               </ul>
+             </div>           
+          </div>
+          <div class="card-side card-side-back card-side-back-5">
+             <div class="card-cta">
+               <div class="card-price-box">
+                 <p class="card-price-only">Only</p>
+                 <p class="card-price-value">P28,000</p>
+               </div>
+               <a href="#" class="btn btn-white">Book Now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-1-of-3">
+        <div class="card">
+           <div class="card-side card-side-front">
+             <div class="card-picture card-picture-6">
+               &nbsp;
+             </div>
+             <h4 class="card-heading">
+               <span class="card-heading-color card-heading-color-6">Siargao</span>                
+             </h4>
+             <div class="card-details">
+               <ul>
+                 <li>4 day tour</li>
+                 <li>Up to 6 people</li>
+                 <li>INCLUSIONS:</li>
+                 <li>Surf resort stay</li>
+                 <li>Island hopping included</li>
+               </ul>
+             </div>           
+          </div>
+          <div class="card-side card-side-back card-side-back-6">
+             <div class="card-cta">
+               <div class="card-price-box">
+                 <p class="card-price-only">Only</p>
+                 <p class="card-price-value">P32,000</p>
+               </div>
+               <a href="#" class="btn btn-white">Book Now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>       
-          <div class="tour-btn">
-            <a href="#" class="btn btn-blue">Discover all tours</a>   
-          </div> 
-            </section>
-    
-            
-    <!-- FEEDBACK -->
-     <section id="Feedbacks" class="section-stories">
-      <div class="feedbacks-heading">
-        <h2 class="heading-secondary">
-          We make people genuinely happy
-        </h2>
-      </div>
-      
-      <div class="row">
-        <div class="fb">
-          <figure class="fb-shape">
-            <img src="Images/FB2.jpg" alt="woman in a canoe" class="fb-img">
-            <figcaption class="fb-caption">Mary Samarita</figcaption>
-          </figure>
-          <div class="fb-text">
-            <h3 class="fb-text1">I had the best week ever with my family.</h3>
-            <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. 
-              Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.  
-              Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-            </p>
+</div>
+<br>      
+      <div class="tour-btn">
+        <a href="#" class="btn btn-blue">Discover all tours</a>   
+      </div> 
+        </section>
+<br>             
+<!-- REVIEW SECTION -->
+     <section id="reviews" class="section-testimonials">
+        <div class="testimonials-heading">
+          <h2 class="heading-secondary">What Our Travelers Say</h2>
+          <p class="testimonials-subtitle">Real experiences from our happy customers</p>
+        </div>
+        
+        <div class="testimonials-container">
+          <div class="testimonial-card testimonial-card-1">
+            <p class="testimonial-text">"Amazing experience! The van was comfortable and the driver was very professional. Highly recommend for anyone visiting the Philippines!"</p>
+            <div class="testimonial-author">
+              <img src="Images/FB2.jpg" alt="Bianca Samarita" class="testimonial-avatar">
+              <div class="testimonial-info">
+                <h4>Bianca Samarita</h4>
+                <span>Boracay Tour</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card testimonial-card-2">
+            <p class="testimonial-text">"Best travel service ever! Everything was well organized from start to finish. The Cordillera trip was breathtaking!"</p>
+            <div class="testimonial-author">
+              <img src="Images/FB1.jpg" alt="Tony Samarita" class="testimonial-avatar">
+              <div class="testimonial-info">
+                <h4>Tony Samarita</h4>
+                <span>Cordillera Tour</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card testimonial-card-3">
+            <p class="testimonial-text">"Great service and friendly staff. The Pinatubo trek was an adventure of a lifetime. Will definitely book again!"</p>
+            <div class="testimonial-author">
+              <img src="Images/GirlSea.jpg" alt="Alexa Go" class="testimonial-avatar">
+              <div class="testimonial-info">
+                <h4>Alexa Go</h4>
+                <span>Pinatubo Tour</span>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="fb">
-          <figure class="fb-shape">
-            <img src="Images/FB1.jpg" alt="man standing on cliff edge" class="fb-img">
-            <figcaption class="fb-caption">Tony Samarita</figcaption>
-          </figure>
-          <div class="fb-text">
-            <h3 class="fb-text2">WOW! My life is completely different now</h3>
-            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new                normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated                  content in real-time will have multiple touchpoints for offshoring
-            </p>
+
+        <div class="testimonial-stats">
+          <div class="stat-item">
+            <span class="stat-number" data-count="486">0</span>
+            <span class="stat-label">Happy Travelers</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="68">0</span>
+            <span class="stat-label">Tours Completed</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-count="95">0</span>
+            <span class="stat-label">% Satisfaction</span>
           </div>
         </div>
-      </div>
-      <div class="fb-btn">
-        <a href="#" class="btn btn-blue">Read all stories &rarr; </a>
-      </div>
-            </section>
-        </main>
+      </section>
+    </main>
     </div>
     
+  <!-- CTA Section -->
+  <section id="cta-section" class="cta-section">
+    <div class="cta-container">
+      <h2>Have Questions? We'd Love to Hear From You!</h2>
+      <p>Ready to plan your perfect trip or need more information? Get in touch with our team today and start your Philippine adventure.</p>
+      <a href="#contact" class="cta-button" id="cta-contact-btn">Contact Us</a>
+    </div>
+  </section>
+
     <!-- Contact -->
-  <section id="contact" class="section">
+  <section id="contact" class="section contact-hidden">
+    <button class="contact-close-btn" id="contact-close-btn">Close</button>
    <div class="contact-box">
      <div class="contact-card">
       <h2 class="contact-section-title">Contact Us</h2>
@@ -223,62 +344,39 @@
    </div>
   </section>
 
-  
   <!-- FOOTERS -->
 <footer>
   <div class="section-container footer-container">
-        <div class="footer-col">
+        <div class="footer-col footer-logo-col">
          <div class="footer-logo">
-            <a href="#" class="logo"><img src="Images/Aguiland%20logo%20High%20Res.png" width="8px" alt="aguilandlogo"></a>
+            <a href="#" class="logo"><img src="Images/Aguiland%20logo%20High%20Res.png" width="120px" alt="aguilandlogo"></a>
             </div>
-            <p>
+        </div>
+
+        <div class="footer-col footer-text-col">
             Explore the PHILIPPINES ease and excitement through our all-in-one
             bus travel platform. Your journey begins here — where smooth
             planning meets unforgettable road experiences.
               </p>
             </div>
 
-        <div class="footer-col">
-          <h4>Social Links</h4>
-          <ul class="footer-link">
-            <li>
-              <a href="#!"><i class="ri-facebook-fill">Facebook</i></a>
-            </li>
-            <li>
-              <a href="#!"><i class="ri-instagram-line">Instagram</i></a>
-            </li>
-            <li>
-              <a href="#!"><i class="ri-youtube-line">Youtube</i></a>
-            </li>
-              </ul>
-            </div>
-   
-         <div class="footer-col">
-           <h4>Quick Links</h4>
-            <ul class="footer-link">
-                        <li><a href="index.html" >Home</a></li>
-                        <li><a href="#about" >About</a></li>
-                        <li><a href="#tours" >Tours</a></li>
-                        <li><a href="#feedbacks" >Feedbacks</a></li>
-            </ul>
-         </div>
-        <div class="footer-col">
+        <div class="footer-col footer-contact-col">
           <h4>Contact Us</h4>
           <ul class="footer-link">
             <li>
               <a href="#">
-                <span><i class="f4-phone-fill"></i></span>+91 12345 67890
+                <span class="footer-phone"></span>+91 12345 67890
               </a>
             </li>
             <li>
               <a href="#">
-                <span><i class="f4-email-line"></i></span>
+                <span class="footer-email"></span>
                 Samaritasidney7@gmail.com
               </a>
             </li>
             <li>
               <a href="#">
-                <span><i class="f4-location-line"></i></span>
+                <span class="footer-location"></span>
                 QUEZON CITY, PHILIPPINES
               </a>
             </li>
@@ -306,9 +404,9 @@
         <!-- Login From -->
         <div class="form login_form">
          <button class="xicon"><img class="X-icon" src="Images/x%20icon.svg" height="25px" alt=""></button> 
-          <form action="user.phpp" method="POST" id="loginForm">
+          <form action="user.php" method="POST" id="loginForm">
             <input type="hidden" name="action" value="login" />
-            <h2>LOG IM</h2>
+            <h2>EMPLOYEE LOGIN</h2>
 
             <div class="input_box">
               <input type="text" id="loginUsername" name="username" placeholder="Enter your username" required />
@@ -336,9 +434,9 @@
         <!-- Signup From -->
         <div class="form signup_form">
           <img class="xicon" src="Images/x%20icon.svg" height="35px" alt="">
-          <form action="user.phpp" method="POST" id="signupForm">
+          <form action="user.php" method="POST" id="signupForm">
             <input type="hidden" name="action" value="register" />
-            <h2>SIGM UP</h2>
+            <h2>EMPLOYEE SIGNUP</h2>
 
             <div class="input_box">
               <input type="text" id="signupUsername" name="username" placeholder="Enter your username" required />
